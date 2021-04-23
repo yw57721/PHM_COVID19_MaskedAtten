@@ -12,7 +12,6 @@ nlp = spacy.load("en_core_web_sm")
 ignore_word_regex = re.compile(r"(coronavirus|covid|corona|my|test|positive|negative|virus)")
 keyword_processor = KeywordProcessor(case_sensitive=True)
 
-
 def find_mask_word_per_tweet(text):
     words = []
     for doc in nlp(text):
