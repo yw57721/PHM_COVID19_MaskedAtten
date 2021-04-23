@@ -112,7 +112,6 @@ def train_model(config):
                  prediction=predictions, label=y_test)
     return True
 
-
 def ensemble_train_and_predict(config,
                                epochs=3,
                                num_average=3):
