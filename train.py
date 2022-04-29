@@ -9,7 +9,7 @@ import numpy as np
 # from absl import flags, app
 import logging
 logging.basicConfig(level=logging.INFO)
-
+ 
 try:
     from model import TextRAtt
 except:
