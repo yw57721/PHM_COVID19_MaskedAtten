@@ -30,3 +30,4 @@ echo "Testing"
 
 echo "Predicting"
 ./fasttext predict $model_path.bin $test_file > $predict_file
+
