@@ -2,6 +2,7 @@ import tensorflow as tf
 import keras.backend as K
 
 
+
 class AttentionLayer(tf.keras.layers.Layer):
 
     def __init__(self, context_vector_size=100):
