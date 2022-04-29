@@ -87,6 +87,7 @@ def get_masked_sentences(pretrain_model, train_file, masked_train_file):
     #
     print("done")
 
+    
 
 if __name__ == '__main__':
     pretrained_model = "/path/to/pretrained_model"
